@@ -406,6 +406,7 @@ for (i in 1:9) {
 
 cbind(cbind(Summary.df.3eq,Summary.df.6eq[,3:6]),Summary.df.10eq[,3:6])
 
+#                |               3 servers                   |               6 servers                   |              10 servers                    
 #          mu rho av.AAoI_emp sd.AAoI_emp   AAoI_LB   AAoI_UB av.AAoI_emp sd.AAoI_emp   AAoI_LB   AAoI_UB av.AAoI_emp sd.AAoI_emp   AAoI_LB    AAoI_UB
 # 1 10.000000 0.1    1.307717  0.01493273  1.166111  1.480111    1.612039  0.01666842  1.409111  1.905111    2.027470  0.01577019  1.768111   2.434111
 # 2  5.000000 0.2    1.642588  0.01611794  1.356000  2.064000    2.305686  0.01632451  1.901000  3.019000    3.212688  0.01862752  2.710000   4.210000
